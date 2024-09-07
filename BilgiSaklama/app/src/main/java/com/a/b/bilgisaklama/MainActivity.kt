@@ -11,16 +11,14 @@ import androidx.core.view.WindowInsetsCompat
 import com.a.b.bilgisaklama.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    /* Bir bilgiyi saklamak için bir xml dosyası oluşturur ve cihazı kullanan kişinin cihazına(hafızasına) saklar
+   // anahtar eşleşmesi şeklinde çalışır.Bir iki veriyi saklamak için güzel bir yapı
+   //Ama bir veri tabanı değil
+    */
     private lateinit var binding: ActivityMainBinding
     //SharedPrefences
     lateinit var sharedPreferences: SharedPreferences
     var alinanKullaniciAdi:String?=null
-
-
-    /* Bir bilgiyi saklamak için bir xml dosyası oluşturur ve cihazı kullanan kişinin cihazına(hafızasına) saklar
-    // anahtar eşleşmesi şeklinde çalışır.Bir iki veriyi saklamak için güzel bir yapı
-    //Ama bir veri tabanı değil
-     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
