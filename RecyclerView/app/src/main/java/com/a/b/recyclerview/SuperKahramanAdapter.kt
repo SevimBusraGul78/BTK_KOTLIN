@@ -10,24 +10,28 @@ class SuperKahramanAdapter(val superKahramanListesi:ArrayList<SuperKahraman>):Re
     class SuperKahramanViewHolder(val binding:RecyclerRowBinding):RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SuperKahramanViewHolder {
-       //recyclerviewbindingi initalize etmek için
-        val binding=RecyclerRowBinding.inflate(LayoutInflater.from(parent.context),parent,false)//inflate kod ile xml bağlamaya çalışıyoruz
-       //bindingi initalize ettik
+        //recyclerviewbindingi initalize etmek için
+        //henüzViewHolder belirli verilere bağlanmamıştır.
+        val binding = RecyclerRowBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        //inflate kod ile xml bağlamaya çalışıyoruz
+        //bindingi initalize ettik
         return SuperKahramanViewHolder(binding)
     }
-
     override fun getItemCount(): Int {
         return superKahramanListesi.size
         //recyclerviewden kaç dana yapayım
     }
-
     override fun onBindViewHolder(holder: SuperKahramanViewHolder, position: Int) {
         //işlemler bitince napacağız şunu göster bunu göster tıklnınca yqp
           holder.binding.textViewRecyclerView.text=superKahramanListesi[position].isim
-    holder.itemView.setOnClickListener{
-        val intent= Intent(holder.itemView.context,TanitimAktivitesi::class.java)
-        intent.putExtra("secilenKahraman",superKahramanListesi[position])
-        holder.itemView.context.startActivity(intent)
+
+          holder.itemView.setOnClickListener{
+
+          val intent= Intent(holder.itemView.context,TanitimAktivitesi::class.java)
+          intent.putExtra("secilenKahraman",superKahramanListesi[position])
+
+             //intent.putExtra(): Bu metot, Intent nesnesine veri eklemek için kullanılır. Intent, Android'de bir ekrandan başka bir ekrana (Activity'ye) geçiş yaparken veri taşımak için kullanılır.
+           holder.itemView.context.startActivity(intent)
 
     }
     }
