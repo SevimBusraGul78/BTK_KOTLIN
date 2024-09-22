@@ -1,0 +1,24 @@
+  --CREATE table IF NOT EXISTS urunler(id INTEGER PRIMARY KEY,isim VARCHAR ,fiyat INT)
+        Insert Into urunler (isim,fiyat) VALUES ('Ayakkabi',100);
+        Insert Into urunler (isim,fiyat) VALUES ('Elbise',150);
+        Insert Into urunler (isim,fiyat) VALUES ('Tshirt',200);
+        Insert Into urunler (isim,fiyat) VALUES ('Atkı',400);
+        Insert Into urunler (isim,fiyat) VALUES ('Palto',300);
+        SELECT * FROM urunler;  */
+             //yıldız everthing
+        // SELECT isim FROM urunler; sadece isimlerin olduğu column
+        // SELECT isim,fiyat from urunler;
+
+       SELECT * FROM urunler WHERE id=5
+
+       SELECT * FROM urunler WHERE isim='Ayakkabı' /* filtreme
+
+       DELETE FROM urunler //bütün tabloyu sil
+
+       DELETE FROM urunler Where id = 2 ; id 2 olanı sil
+
+       UPDATE urunler SET fiyat = 250 Where isim = 'palto'
+
+       SELECT * FROM urunler WHERE isim LIKE 'Ay%' ; Ay gibi başlayanları getir
+       
+
