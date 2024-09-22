@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id TarifRecyclerView
+id action_listeFragment_to_tarifFragment
+id action_listeFragment_to_tarifFragment2
+id floatingActionButton3
+id fragmentContainerView2
+id imageView
+id isimText
+id kaydet
+id listeFragment
+id main
+id malzemeText
+id nav_graph
+id sil
+id tarifFragment
+layout activity_main
+layout fragment_liste
+layout fragment_tarif
+layout recycler_row
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation nav_graph
+string app_name
+string hello_blank_fragment
+style Base.Theme.Sqllite
+style Theme.Sqllite
+xml backup_rules
+xml data_extraction_rules

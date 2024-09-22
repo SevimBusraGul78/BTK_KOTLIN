@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.a.b.sqllite.app-mergeDebugResources-49:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Safranbolu78\\.gradle\\caches\\transforms-4\\66225d9967f1257bb88892a2837db90c\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}
