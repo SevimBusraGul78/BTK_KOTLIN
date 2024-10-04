@@ -31,7 +31,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Sqllite" >
         <activity
-            android:name="com.a.b.sqllite.MainActivity"
+            android:name="com.a.b.sqllite.view.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -7,6 +7,7 @@ drawable ic_launcher_foreground
 id TarifRecyclerView
 id action_listeFragment_to_tarifFragment
 id action_listeFragment_to_tarifFragment2
+id action_tarifFragment_to_listeFragment
 id floatingActionButton3
 id fragmentContainerView2
 id imageView
