@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.a.b.sqllite.NavGraphArgs","com.a.b.sqllite.ListeFragmentDirections","com.a.b.sqllite.TarifFragmentArgs"]}]
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.a.b.sqllite.NavGraphArgs","com.a.b.sqllite.view.ListeFragmentDirections","com.a.b.sqllite.view.TarifFragmentDirections","com.a.b.sqllite.view.TarifFragmentArgs"]}]

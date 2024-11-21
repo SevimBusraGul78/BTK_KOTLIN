@@ -45,10 +45,10 @@ com.a.b.sqllite.app-room-rxjava3-2.6.1-43 C:\Users\Safranbolu78\.gradle\caches\t
 com.a.b.sqllite.app-navigation-fragment-2.7.7-44 C:\Users\Safranbolu78\.gradle\caches\transforms-4\f604855757f32c9dd50e98fe045ff36e\transformed\navigation-fragment-2.7.7\res
 com.a.b.sqllite.app-navigation-runtime-2.7.7-45 C:\Users\Safranbolu78\.gradle\caches\transforms-4\f7570a1343ef4271df2cb5d869cf0ca3\transformed\navigation-runtime-2.7.7\res
 com.a.b.sqllite.app-navigation-common-2.7.7-46 C:\Users\Safranbolu78\.gradle\caches\transforms-4\f995c094d686e18d345756624c9a3d1a\transformed\navigation-common-2.7.7\res
-com.a.b.sqllite.app-pngs-47 D:\BTK_AKADEMI\sqllite\app\build\generated\res\pngs\debug
-com.a.b.sqllite.app-resValues-48 D:\BTK_AKADEMI\sqllite\app\build\generated\res\resValues\debug
-com.a.b.sqllite.app-packageDebugResources-49 D:\BTK_AKADEMI\sqllite\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.a.b.sqllite.app-packageDebugResources-50 D:\BTK_AKADEMI\sqllite\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.a.b.sqllite.app-debug-51 D:\BTK_AKADEMI\sqllite\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.a.b.sqllite.app-debug-52 D:\BTK_AKADEMI\sqllite\app\src\debug\res
-com.a.b.sqllite.app-main-53 D:\BTK_AKADEMI\sqllite\app\src\main\res
+com.a.b.sqllite.app-pngs-47 C:\Users\Safranbolu78\Desktop\sqllite\app\build\generated\res\pngs\debug
+com.a.b.sqllite.app-resValues-48 C:\Users\Safranbolu78\Desktop\sqllite\app\build\generated\res\resValues\debug
+com.a.b.sqllite.app-packageDebugResources-49 C:\Users\Safranbolu78\Desktop\sqllite\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.a.b.sqllite.app-packageDebugResources-50 C:\Users\Safranbolu78\Desktop\sqllite\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.a.b.sqllite.app-debug-51 C:\Users\Safranbolu78\Desktop\sqllite\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.a.b.sqllite.app-debug-52 C:\Users\Safranbolu78\Desktop\sqllite\app\src\debug\res
+com.a.b.sqllite.app-main-53 C:\Users\Safranbolu78\Desktop\sqllite\app\src\main\res
